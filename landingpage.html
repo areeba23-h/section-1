@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+
+    <style>
+        * {
+            font-family: Lato;
+        }
+
+        .hero-section {
+            height: 60vh;
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+
+            padding: 0 50px;
+            background-image: linear-gradient(0deg, #ffffff73, #0000003e), url('https://wallpapers.com/images/high/plants-background-dan73m6kcct3dhkn.webp')
+        }
+
+        .hero-title {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0;
+            color: black;
+        }
+
+        .hero-btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .feature-section {
+            padding: 50 100px;
+        }
+
+        .card {
+            /* border: 2px solid red; */
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px #00000055;
+            padding: 30px;
+            text-align: center;
+            width: 20%;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .service-image {
+            /* border: 2px solid red; */
+        }
+
+        .service-info {
+            /* border: 2px solid green; */
+            padding: 50px;
+        }
+
+        .service-info h3 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .service-section {
+            display: grid;
+            padding: 50px 100px;
+        }
+
+        .service1 {
+            grid-template-columns: 2fr 3fr;
+        }
+
+        .service2 {
+            grid-template-columns: 3fr 2fr 3fr 2fr;
+        }
+
+        .service-image img {
+            width: 100%;
+        }
+
+        .section-btn {
+            color: #b732b7;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid #b732b7;
+            font-size: 1.1em;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <main>
+
+        <article>
+
+            <section class="hero-section">
+                <h1 class="hero-title">Welcome to the Site</h1>
+                <p class="hero-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Et dolorum nam ipsam, magni odit nostrum ex debitis amet ullam rerum.</p>
+
+                <button class="hero-btn">Explore</button>
+
+            </section>
+
+            <section class="feature section">
+                <h2 class="section-title">Our Features</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Feature Title 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit aut totam,
+                            reprehenderit blanditiis consectetur odit ipsam exercitationem culpa repellendus?</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Feature Title 2</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit aut totam,
+                            reprehenderit blanditiis consectetur odit ipsam exercitationem culpa repellendus?</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Feature Title 3</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit aut totam,
+                            reprehenderit blanditiis consectetur odit ipsam exercitationem culpa repellendus?</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="service-section service1">
+
+                <div class="service-image">
+                    <img src="service img1.png" alt="">
+
+                </div>
+
+                <div class="service-info">
+                    <h3>Service Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ea laboriosam aliquid itaque
+                        in, quaerat quas,
+                        magnam commodi similique, labore cupiditate hic aspernatur? Ducimus cumque cum magni inventore
+                        id quae.</p>
+
+                    <button class="section-btn">Learn More</button>
+                </div>
+
+
+            </section>
+            <section class="service-section service2">
+
+                <div class="service-info">
+                    <h3>Service Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ea laboriosam aliquid itaque
+                        in, quaerat quas,
+                        magnam commodi similique, labore cupiditate hic aspernatur? Ducimus cumque cum magni inventore
+                        id quae.</p>
+
+
+                    <button class="section-btn">Learn More</button>
+                </div>
+
+                <div class="service-image">
+                    <img src="service img1.png" alt="">
+
+                </div>
+
+                <div class="service-info">
+                    <h3>Service Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ea laboriosam aliquid itaque
+                        in, quaerat quas,
+                        magnam commodi similique, labore cupiditate hic aspernatur? Ducimus cumque cum magni inventore
+                        id quae.</p>
+
+
+                    <button class="section-btn">Learn More</button>
+                </div>
+
+                <div class="service-image">
+                    <img src="service img1.png" alt="">
+
+                </div>
+
+            </section>
+
+
+
+
+        </article>
+    </main>
+
+</body>
+
+</html>
