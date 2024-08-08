@@ -7,26 +7,31 @@
 </head>
 <body class="flex justify-center items-center h-screen bg-slate-400">
   
-    <div class="border-2 w-1/5 shadow-lg rounded-lg p-8 bg-white">
-        <h3 class="text-center font-bold text-2xl my-4">Contact Us</h3>
+    <div class="bg-gray-50 p-5 lg:p-11 w-full h-full items-center">
+        <h1 class="text-black font-manrope text-4xl font-bold leading-10 mb-11 text-center">Contact Us</h1>
+        <h2 class="text-black font-manrope text-4xl font-semibold leading-10 mb-11 text-center">Send Us A Message</h2>
 
-        <form>
-            <label for="">Name</label>
-            <input class="w-full p-2 border-2 border-gry-300 rounded-md mb-5" placeholder="Your Name" type="name">
 
-            <label for="">Email</label>
-            <input class="w-full p-2 border-2 border-gry-300 rounded-md mb-5" placeholder="Your Email" type="email">
+        <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 
+        rounded-md border border-gray-400 focus:outline-black mb-10" placeholder="Name">
 
-            <label for="">Number</label>
-            <input class="w-full p-2 border-2 border-gry-300 rounded-md mb-5" placeholder="Your Number" type="number">
 
-            <label for="">Message</label>
-            <textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+        <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 
+        rounded-md border border-gray-400 focus:outline-black pl-4 mb-10" placeholder="Email">
 
-            <button class="bg-sky-700 py-2 px-4 text-white rounded-md w-full mt-5">Submit</button>
-        </form>
 
-    </div>
+        <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7
+         rounded-md border border-gray-400 focus:outline-black pl-4 mb-10" placeholder="Phone">
+
+       
+        <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label>
+        <textarea id="textarea" name="textarea" cols="30" rows="5"placeholder="Write your message..." class="mb-11 w-full
+         rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+
+
+        <button class="w-full h-12 text-white text-base font-semibold leading-6 rounded-md
+         transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Submit Your Response</button>
+</div>
         
 </body>
 </html>
